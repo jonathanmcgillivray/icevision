@@ -4,7 +4,7 @@ from icevision.imports import *
 from icevision.utils import *
 from icevision.data import *
 from icevision.metrics.metric import *
-
+from icevision.data import create_coco_eval
 
 class COCOMetricType(Enum):
     """Available options for `COCOMetric`."""
